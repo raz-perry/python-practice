@@ -1,17 +1,5 @@
-#################################################################
-# ex7 - recursion
-# login: raz.perry
-# id : 208613190
-# full name: raz perry
-# others (students, webs, notes):
-# in function 2 i chose to return -1 (when there are only 1/0 and -1 cells
-# because the function get only the variations for a row (or col) but that
-# unknown cell affected also from the col (or row) blocks and maybe there
-# the third option will be the chosen one. in that case i would create wrong
-# board and have to return recursively.
-# students - toot avrach (discuss on function 5)
-#################################################################
 from copy import deepcopy
+
 BLACK = 1
 WHITE = 0
 UNKNOWN = -1
